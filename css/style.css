@@ -1,0 +1,391 @@
+/* body {
+  height: 12000px;
+} */
+/* .nav1 {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(157deg, #3398db, #2ecc70);
+} */
+.navt {
+  margin-left: 90px;
+}
+.navse {
+  margin-right: 10px;
+}
+.carousel-item img {
+  height: 585px;
+}
+.flag {
+  height: 35px;
+  width: 35px;
+}
+.OO {
+  background-image: linear-gradient(200deg, #eeeeee, #0084dc);
+}
+
+.OOO {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 4px;
+  background: #005eff;
+  background: linear-gradient(
+    to top left,
+    #ffffff 9%,
+    #8c00ff 26%,
+    #003d9e 60%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ff {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 4px;
+  background: #2e2e2e;
+  background: linear-gradient(
+    to top right,
+    #00c3ff 9%,
+    #020f3c 17%,
+    #0062ff 69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aa {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(164deg, #222f3d, #bdc3c8);
+}
+
+.imgg {
+  background-image: url(../image/geece.jpg);
+  background-size: cover;
+  height: 300px;
+  background-attachment: fixed;
+}
+.card1::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  top: 0;
+  background-color: rgb(8, 0, 255);
+
+  opacity: 0;
+  content: "";
+  transition: 0.6s;
+}
+.card1:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  transition: 0.6s;
+  position: absolute;
+  z-index: 0;
+}
+.ss::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(39, 116, 116);
+  opacity: 0;
+  content: "";
+  transition: 0.8s;
+}
+.ss:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  transition: 0.8s;
+  position: absolute;
+  z-index: 888;
+}
+.pc2 {
+  background-image: url(../image/kefalonia-greece.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+}
+.parent {
+  transition: 0.5s;
+}
+.parent:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.pph {
+  background-image: url(../image/pro.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  margin-left: 13px;
+  clip-path: ellipse(300px 320px at 2% 22%);
+}
+.pphl {
+  background-image: url(..//image/partenone.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  margin-left: -13px;
+  clip-path: ellipse(300px 320px at 2% 22%);
+}
+.ppll {
+  background-image: url(../image/acrobols.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  margin-left: 13px;
+  clip-path: ellipse(300px 320px at 2% 22%);
+}
+.pphlll {
+  background-image: url(../image/monstirake.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  margin-left: -13px;
+  clip-path: ellipse(300px 320px at 2% 22%);
+}
+.line {
+  transition: 0.5s;
+  margin-left: 15px;
+}
+.prodct1:hover .line {
+  transform: scalex(1.5);
+  transition: 0.5s;
+}
+.butt {
+  transition: 0.5s;
+}
+.butt .watch:hover {
+  transition: 0.5s;
+  background-color: #16354c;
+}
+.icons {
+  text-align: center;
+}
+.icons i {
+  transition: 0.5s;
+}
+.icons i:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.conact {
+  margin-left: 800px;
+  z-index: 999;
+  background-attachment: fixed;
+  margin-bottom: 50px;
+  text-align: end;
+  width: 500px;
+}
+.single-logo-item img {
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+.logo-carousel-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.footer-area {
+  padding: 80px 0;
+  z-index: 1;
+}
+
+h2.widget-title {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+h2.widget-title:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #001931;
+  content: "";
+}
+
+.footer-box p {
+  opacity: 0.7;
+  line-height: 1.8;
+}
+
+.footer-box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-box ul li {
+  opacity: 0.7;
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.footer-box ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-box.subscribe form input[type="email"] {
+  border: none;
+  background-color: #f9f9f9;
+  width: 78%;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.footer-box.subscribe form button {
+  width: 20%;
+  border: none;
+  background-color: #f9f9f9;
+  color: #f5f5f5;
+  padding: 14px 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+
+.footer-box.subscribe form button:focus {
+  outline: none;
+}
+
+.copyright {
+  background-color: #051922;
+  border-top: 1px solid #232a35;
+}
+
+.copyright p {
+  margin: 0;
+  color: #fff;
+  opacity: 0.7;
+  padding: 16px 0;
+  font-size: 15px;
+}
+
+.copyright a {
+  color: #590d22;
+  font-weight: 700;
+}
+
+.copyright a:hover {
+  color: #590d22;
+}
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-icons ul li {
+  display: inline-block;
+}
+
+.social-icons ul li a {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.7;
+  padding: 16px 10px;
+  display: block;
+}
+
+.footer-box ul li a {
+  color: #590d22;
+}
+
+.footer-box.pages ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.footer-box.pages ul li:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fff;
+}
+.footer-box.pages ul li a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer-box.pages ul li:hover a {
+  color: #f9f9f9;
+}
+
+.footer-box.subscribe form button {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer-box.subscribe form button:hover {
+  background-color: #0059ff;
+  color: #051922;
+}
+
+.meedia p {
+  font-size: larger;
+}
+
+
+.ll {
+  width: 80px;
+  height: 8px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .meedia {
+    width: auto;
+  }
+  .meedia p {
+    font-size: 12px;
+  }
+  .meedia button {
+    font-size: 12px;
+  }
+  .player .pl {
+    margin-left: -36px;
+  }
+  .butt {
+    width: 206px;
+    margin: auto;
+   height: auto;
+  }
+
+  .line {
+    width: 50px;
+    height: 3px;
+    border-radius: 20px;
+  }
+  
+  .buttt {
+    width: 206px;
+    margin-top: -17px;
+    height: auto;
+    
+
+  }
+  .pppp{
+   padding: auto;
+  }
+}
+
